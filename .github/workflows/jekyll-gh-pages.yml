@@ -1,5 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Build and Deploy Vite React Tailwind Site
 
 on:
   # Runs on pushes targeting the default branch
@@ -27,16 +26,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        uses: actions/checkout@v2 # Use v2 for better compatibility with Node.js and JavaScript-based projects
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          source: ./
-          destination: ./_site
+          node-version: 14 # Adjust the Node.js version as needed
+      - name: Install Node.js dependencies
+        run: npm install
+
+      # Replace this step with your Vite-specific build command
+      - name: Build Vite, React, and Tailwind CSS Site
+        run: npm run build
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-artifact
+          path: dist # Adjust this path to match your Vite build output directory
 
   # Deployment job
   deploy:
