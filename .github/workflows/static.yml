@@ -27,6 +27,8 @@ jobs:
           node-version: ${{matrix.node-version}}
       - name: node version
         run: node --version
+      - name: Install dependencies
+        run: npm install
       - name: Build the project
         run: npm run build # Adjust the build command as needed
 
