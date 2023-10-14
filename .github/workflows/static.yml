@@ -10,21 +10,23 @@ permissions:
   id-token: write
   
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14 # Adjust the Node.js version as needed
-
-      - name: Install dependencies
-        run: npm install
-
+          node-version: ${{matrix.node-version}}
+      - name: node version
+        run: node --version
       - name: Build the project
         run: npm run build # Adjust the build command as needed
 
