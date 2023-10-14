@@ -4,35 +4,35 @@ on:
   push:
     branches:
       - main # Adjust the branch name as needed
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-  
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: ${{matrix.node-version}}
-      - name: node version
-        run: node --version
+          node-version: 14 # Adjust the Node.js version as needed
+
       - name: Install dependencies
         run: npm install
+
       - name: Build the project
         run: npm run build # Adjust the build command as needed
 
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
