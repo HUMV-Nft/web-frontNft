@@ -1,5 +1,6 @@
 {
-  "name": "https://humv-nft.github.io/web-frontNft/",
+  "homepage": "https://humv-nft.github.io/web-frontNft/",
+  "name": "HUMV",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
