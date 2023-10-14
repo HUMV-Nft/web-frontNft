@@ -7,7 +7,7 @@ export default function RightSideBar() {
     <aside className="max-w-[500px] w-full grid gap-5 overflow-y-auto max-h-[700px] overflow-x-hidden scroll-bar p-4 bg-zinc-800/50 rounded-lg">
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user1} alt="user photo" />
+          <img src={user1} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
@@ -20,7 +20,7 @@ export default function RightSideBar() {
       </div>
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user2} alt="user photo" />
+          <img src={user2} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
@@ -33,7 +33,7 @@ export default function RightSideBar() {
       </div>
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user3} alt="user photo" />
+          <img src={user3} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
@@ -46,7 +46,7 @@ export default function RightSideBar() {
       </div>
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user1} alt="user photo" />
+          <img src={user1} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
@@ -59,7 +59,7 @@ export default function RightSideBar() {
       </div>
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user2} alt="user photo" />
+          <img src={user2} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
@@ -72,7 +72,7 @@ export default function RightSideBar() {
       </div>
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
-          <img src={user3} alt="user photo" />
+          <img src={user3} alt="user " />
           <div>
             <h4 className="font-medium">Luck Crypto</h4>
             <span className="text-zinc-300">@Jon Max</span>
