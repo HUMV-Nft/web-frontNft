@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/web-frontNft/static/css/main.3c168a76.css",
-    "main.js": "/web-frontNft/static/js/main.30364396.js",
+    "main.css": "/web-frontNft/static/css/main.0b254bcf.css",
+    "main.js": "/web-frontNft/static/js/main.29eeea8a.js",
+    "static/media/family.jpg": "/web-frontNft/static/media/family.3f0c564b8be57fd2b86a.jpg",
     "static/media/logo.png": "/web-frontNft/static/media/logo.3d5c28c18f0fcaccb974.png",
-    "static/media/back-contact.jpg": "/web-frontNft/static/media/back-contact.4e86445f24cfeaecc76b.jpg",
-    "static/media/bannerjpg.jpg": "/web-frontNft/static/media/bannerjpg.5190eaf1b539c9d5ceda.jpg",
-    "static/media/abiut-backhground.jpg": "/web-frontNft/static/media/abiut-backhground.031a00a230965176c085.jpg",
-    "static/media/cover2.jpg": "/web-frontNft/static/media/cover2.dc0d6787d111600110d5.jpg",
-    "static/media/cover1.jpg": "/web-frontNft/static/media/cover1.b6f6d12c820bff84d5b4.jpg",
+    "static/media/banner2.jpg": "/web-frontNft/static/media/banner2.cfb3e900b0a937b25cc0.jpg",
+    "static/media/army.jpg": "/web-frontNft/static/media/army.f29496aee512f220f5e2.jpg",
+    "static/media/airforce.jpg": "/web-frontNft/static/media/airforce.bf90f32f926bf895371b.jpg",
+    "static/media/marine.jpg": "/web-frontNft/static/media/marine.b2ff91911794a006e299.jpg",
+    "static/media/navy.jpg": "/web-frontNft/static/media/navy.14e294503cea5631cb6d.jpg",
+    "static/media/BlogImage.jpg": "/web-frontNft/static/media/BlogImage.fd88341fedffcd76f5e4.jpg",
     "static/media/nft_avatar03.webp": "/web-frontNft/static/media/nft_avatar03.48f73439aadddb66506d.webp",
     "static/media/dis.webp": "/web-frontNft/static/media/dis.648390ff2ad8fe34f82e.webp",
     "static/media/twiiter.webp": "/web-frontNft/static/media/twiiter.88624229e1be5bcc10e6.webp",
     "static/media/insta.webp": "/web-frontNft/static/media/insta.9424733834bfd1116f33.webp",
     "static/media/telewebp.webp": "/web-frontNft/static/media/telewebp.a02576cc8df11ce10d9c.webp",
     "index.html": "/web-frontNft/index.html",
-    "main.3c168a76.css.map": "/web-frontNft/static/css/main.3c168a76.css.map",
-    "main.30364396.js.map": "/web-frontNft/static/js/main.30364396.js.map"
+    "main.0b254bcf.css.map": "/web-frontNft/static/css/main.0b254bcf.css.map",
+    "main.29eeea8a.js.map": "/web-frontNft/static/js/main.29eeea8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c168a76.css",
-    "static/js/main.30364396.js"
+    "static/css/main.0b254bcf.css",
+    "static/js/main.29eeea8a.js"
   ]
 }
