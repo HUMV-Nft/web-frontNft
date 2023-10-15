@@ -8,13 +8,15 @@ export default function ContactUs() {
       <section>
         <div className="bg-contact"></div>
         <h2 className="text-5xl text-center font-bold px-10 py-16 text-green-400">
-          HUMV NFT{"'"}s
+          HUMV Community
         </h2>
-        <p className="text-xl py-16 text-white w-[70%] mx-auto text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Necessitatibus, eveniet officiis quidem autem saepe, voluptas
-          doloremque quos officia natus ipsum in obcaecati, dolore vero corrupti
-          aliquam veritatis incidunt. Placeat, tenetur.
+        <p className="text-xl py-16 text-white w-[60%] mx-auto text-center">
+          We value your connection and are here to address any inquiries or
+          concerns you may have. Your feedback is important to us, as it helps
+          us better serve military families. Please don't hesitate to reach out
+          to the HUMV team using the contact information provided below. We look
+          forward to hearing from you and continuing our mission to support and
+          unite military families. Together, we can make a difference.
         </p>
         <form className="grid w-[60%] mx-auto gap-10 py-16">
           <div className="flex justify-center gap-10">

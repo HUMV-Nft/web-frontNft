@@ -4,6 +4,11 @@ import LeftSideBar from "../components/left-side-bar/left-side-bar";
 import Nav from "../components/menu/Nav";
 import RightSideBar from "../components/right-side-bar/right-side-bar";
 
+import army from "../assets/images/army.jpg";
+import air from "../assets/images/airforce.jpg";
+import marine from "../assets/images/marine.jpg";
+import navy from "../assets/images/navy.jpg";
+
 export default function Home() {
   return (
     <>
@@ -13,7 +18,7 @@ export default function Home() {
         <h1 className="text-5xl text-green-400 font-bold text-center py-16">
           -HUMV-
         </h1>
-        <p className="text-white pb-24 text-center w-[90%] mx-auto text-lg">
+        <p className="text-white pb-24 text-center w-[70%] mx-auto text-lg">
           At HUMV , collectors and creators alike come together to explore the
           world of digital art. We combine cutting-edge technology with
           sensational artists to pioneer this exciting new art form. Our
@@ -26,34 +31,63 @@ export default function Home() {
           <div className="w-[80%]">
             <div className="text-white text-center py-10">
               <h2 className="text-4xl font-semibold">
-                Art Blocks, Explained in 10 Collections
+                Honoring Sacrifice and Resilience
               </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
-                voluptates accusantium? Dolorum perspiciatis dolor quis, laborum
-                nulla commodi harum eveniet a, saepe, ab consequatur ipsum velit
-                dolore dignissimos sit ducimus Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Saepe dolorum corporis quia, ab
-                animi sint alias officia aut culpa, eius unde! Similique enim
-                recusandae totam fugit soluta, temporibus error eius!
+                Supporting military families is an essential and noble endeavor
+                that reflects our deep gratitude for the sacrifices made by
+                those who serve in the armed forces. These families demonstrate
+                unwavering strength and resilience in the face of unique
+                challenges. Our commitment to supporting military families is a
+                testament to our collective responsibility to ensure their
+                well-being.
               </p>
             </div>
             <div className="text-white text-center py-10">
-              <h2 className="text-4xl font-semibold">Digital Canvas</h2>
+              <h2 className="text-4xl font-semibold">The Weight of Service</h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
-                Digital Canvas—a perfect blend of classic elegance and modern
-                technology. Showcase your cherished artworks with this sleek,
-                high-resolution display that brings your art to life. With
-                dynamic features, including slideshows, videos, and audio, it
-                offers a versatile multimedia experience. Transform your living
-                space into a personalised gallery with digital art. Seamlessly
-                connect your devices for easy image transfer and sharing. Smart
-                features ensure optimal viewing conditions, making our Digital
-                Canvas a captivating addition to any home or office.
+                Military families often endure long separations, frequent
+                relocations, and the stress of deployments. They embody the true
+                meaning of sacrifice and patriotism. As a community, we come
+                together to provide them with the support, resources, and
+                appreciation they rightfully deserve. By offering assistance
+                with housing, childcare, education, and mental health services,
+                we aim to alleviate the burdens they may face.
               </p>
             </div>
           </div>
           <RightSideBar />
+        </div>
+        <div className="py-16">
+          <h2 className="text-green-400 text-center text-5xl font-bold mb-16 uppercase">
+            -Branches-
+          </h2>
+          <div className="grid grid-cols-4 gap-5">
+            <div>
+              <h4 className="text-white text-2xl text-center font-medium">
+                Airforce
+              </h4>
+              <img src={air} alt="solider" className="rounded-full p-4" />
+            </div>
+            <div>
+              <h4 className="text-white text-2xl text-center font-medium">
+                Army
+              </h4>
+              <img src={army} alt="solider" className="rounded-full p-4" />
+            </div>
+            <div>
+              <h4 className="text-white text-2xl text-center font-medium">
+                Navy
+              </h4>
+              <img src={navy} alt="solider" className="rounded-full p-4" />
+            </div>
+            <div>
+              <h4 className="text-white text-2xl text-center font-medium">
+                Marine
+              </h4>
+              <img src={marine} alt="solider" className="rounded-full p-4" />
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

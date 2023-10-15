@@ -4,7 +4,7 @@ import user3 from "../../assets/images/nft_avatar03.webp";
 
 export default function RightSideBar() {
   return (
-    <aside className="max-w-[500px] w-full grid gap-5 overflow-y-auto max-h-[700px] overflow-x-hidden scroll-bar p-4 bg-zinc-800/50 rounded-lg">
+    <aside className="max-w-[500px] w-full grid gap-5 overflow-y-auto max-h-[700px] overflow-x-hidden scroll-bar scroll-bar-r p-4 bg-zinc-800/50 rounded-lg">
       <div className="w-full bg-zinc-800 p-4 rounded-lg text-white">
         <div className="flex gap-5">
           <img src={user1} alt="user " />

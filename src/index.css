@@ -18,14 +18,17 @@ html {
 }
 
 .banner {
-  background-image: url("./assets/images/bannerjpg.jpg");
-  height: 200px;
+  background-image: url("./assets/images/banner2.jpg");
   margin-inline: auto;
   background-position: center;
 }
 
 .scroll-bar::-webkit-scrollbar {
   width: 1px;
+}
+
+.scroll-bar-r {
+  direction: rtl;
 }
 .scroll-bar::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -37,7 +40,7 @@ html {
 }
 
 .bg-about {
-  background-image: url("./assets/images/abiut-backhground.jpg");
+  background-image: url("./assets/images/BlogImage.jpg");
   height: 500px;
   max-height: 100%;
   max-width: 100%;
@@ -47,11 +50,11 @@ html {
 }
 
 .bg-contact {
-  background-image: url("./assets/images/back-contact.jpg");
-  height: 500px;
+  background-image: url("./assets/images/family.jpg");
+  height: 600px;
   max-height: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
