@@ -23,13 +23,13 @@ export default function Donate() {
       <Nav />
       <section className="py-16">
         <div>
-          <h2 className="text-white text-center text-5xl font-bold py-16 uppercase">
+          <h2 className="text-white text-center text-2xl md:text-5xl font-bold py-16 uppercase">
             You can donate each Branches you want !
           </h2>
           <p></p>
           <div>
             <div className="py-16">
-              <div className="grid grid-cols-4 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 <div onClick={() => handelSelect(1)} className="group">
                   <h4 className="text-white text-2xl text-center font-medium">
                     Airforce
@@ -87,8 +87,8 @@ export default function Donate() {
             <div></div>
           </div>
           <div>
-            <form className="grid w-[60%] mx-auto gap-10 py-16">
-              <div className="flex justify-center gap-10">
+            <form className="grid w-full md:w-[60%] mx-auto gap-10 px-5 py-16">
+              <div className="grid md:flex md:justify-center gap-10">
                 <input
                   type="text"
                   className="bg-black/20 p-5 text-white rounded-md w-full h-14 text-xl"
@@ -109,7 +109,7 @@ export default function Donate() {
                 <h4 className="text-white text-2xl font-medium text-center">
                   Amount Donate
                 </h4>
-                <div className="text-white flex gap-10 py-5 w-fit mx-auto">
+                <div className="text-white grid grid-cols-2 sm:flex gap-10 py-5 w-fit mx-auto">
                   <span className="border-2 rounded-lg font-medium hover:bg-white/30 cursor-pointer border-white px-3 py-1">
                     $10
                   </span>

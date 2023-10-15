@@ -26,11 +26,11 @@ export default function Home() {
           emerging collectors to purchase digital art with the support of
           blockchain technology, accepting payment in both Crypto and Fiat
         </p>
-        <div className="flex justify-center">
+        <div className="grid xl:flex justify-center">
           <LeftSideBar />
-          <div className="w-[80%]">
+          <div className="w-[80%] py-16 xl:py-0 mx-auto xl:mx-0">
             <div className="text-white text-center py-10">
-              <h2 className="text-4xl font-semibold">
+              <h2 className="text-2xl lg:text-4xl font-semibold">
                 Honoring Sacrifice and Resilience
               </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
@@ -44,7 +44,9 @@ export default function Home() {
               </p>
             </div>
             <div className="text-white text-center py-10">
-              <h2 className="text-4xl font-semibold">The Weight of Service</h2>
+              <h2 className="text-2xl lg:text-4xl font-semibold">
+                The Weight of Service
+              </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
                 Military families often endure long separations, frequent
                 relocations, and the stress of deployments. They embody the true
@@ -62,7 +64,7 @@ export default function Home() {
           <h2 className="text-green-400 text-center text-5xl font-bold mb-16 uppercase">
             -Branches-
           </h2>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             <div>
               <h4 className="text-white text-2xl text-center font-medium">
                 Airforce
