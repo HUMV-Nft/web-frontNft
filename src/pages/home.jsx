@@ -8,8 +8,43 @@ import army from "../assets/images/army.jpg";
 import air from "../assets/images/airforce.jpg";
 import marine from "../assets/images/marine.jpg";
 import navy from "../assets/images/navy.jpg";
+import close from "../assets/images/icons8-close (1).svg";
+import arrow from "../assets/images/icons8-arrow-right-30.png";
+
+import { useState } from "react";
+
+const images = require.context("../assets/images/branch", true);
+const imageList = images.keys().map((image) => images(image));
 
 export default function Home() {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openLightbox = (image, index) => {
+    setSelectedImage(image);
+    setCurrentIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => {
+    setSelectedImage(null);
+    setLightboxOpen(false);
+  };
+
+  const goToPrevImage = () => {
+    const prevIndex = currentIndex === 0 ? 17 : currentIndex - 1;
+    setSelectedImage(imageList[prevIndex]);
+    setCurrentIndex(prevIndex);
+  };
+
+  const goToNextImage = () => {
+    const nextIndex =
+      currentIndex === imageList.length - 1 ? 0 : currentIndex + 1;
+    setSelectedImage(imageList[nextIndex]);
+    setCurrentIndex(nextIndex);
+  };
+
   return (
     <>
       <Banner />
@@ -91,6 +126,58 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="grid w-[70%] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-16">
+          {imageList.map((image, index) => (
+            <div className="">
+              <img
+                className="rounded-lg cursor-pointer"
+                onClick={() => openLightbox(image, index)}
+                key={index}
+                src={image}
+                alt="wolf army us"
+              />
+            </div>
+          ))}
+        </div>
+        {lightboxOpen && (
+          <div className="fixed flex items-center py-5 md:py-20 top-0 left-0 w-full h-screen bg-black/50">
+            <img
+              onClick={closeLightbox}
+              className="absolute right-10 top-10 w-12 cursor-pointer"
+              src={close}
+              alt="close"
+            />
+            <img
+              onClick={goToPrevImage}
+              className="hidden sm:block rotate-180 active:bg-white cursor-pointer p-3 ml-3 bg-black/50 rounded-full"
+              src={arrow}
+              alt="arrow"
+            />
+            <img
+              className="w-[70%] md:w-[50%] xl:w-[40%] mx-auto"
+              src={selectedImage}
+              alt="army in light box"
+            />
+            <img
+              className="hidden sm:block cursor-pointer p-3 mr-3 bg-black/50 rounded-full active:bg-white"
+              onClick={goToNextImage}
+              src={arrow}
+              alt="arrow"
+            />
+            <img
+              onClick={goToPrevImage}
+              className="block absolute bottom-10 sm:hidden left-20 rotate-180 active:bg-white cursor-pointer p-3 ml-3 bg-black/50 rounded-full"
+              src={arrow}
+              alt="arrow"
+            />
+            <img
+              className="block sm:hidden absolute bottom-10 right-20 cursor-pointer p-3 mr-3 bg-black/50 rounded-full active:bg-white"
+              onClick={goToNextImage}
+              src={arrow}
+              alt="arrow"
+            />
+          </div>
+        )}
       </section>
       <Footer />
     </>

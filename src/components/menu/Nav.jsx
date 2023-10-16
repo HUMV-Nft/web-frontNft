@@ -47,7 +47,9 @@ export default function Nav() {
       </ul>
       <div className="flex overflow-hidden lg:hidden">
         <div className="flex-1">
-          <img className="w-44 h-44 " src={logo} alt="logo" />
+          <Link to="/">
+            <img className="w-44 h-44 " src={logo} alt="logo" />
+          </Link>
         </div>
         <img
           className="w-10 mr-10 cursor-pointer"

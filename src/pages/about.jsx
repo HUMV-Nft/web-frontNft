@@ -7,7 +7,7 @@ export default function AboutUs() {
       <Nav />
       <section>
         <div className="bg-about relative max-w-7xl mx-auto text-white text-center"></div>
-        <h2 className="text-5xl text-center font-bold px-10 py-28 text-green-400">
+        <h2 className="text-5xl text-center font-bold px-10 py-16 md:py-28 text-green-400">
           HUMV FAMILY
         </h2>
         <p className="text-xl py-16 text-white w-[70%] mx-auto text-center">

@@ -64,8 +64,8 @@ export default function ContactUs() {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="grid w-[60%] mx-auto gap-10 py-16">
-              <div className="flex justify-center gap-10">
+              className="grid w-[90%] md:w-[60%] mx-auto gap-10 py-16">
+              <div className="grid md:flex md:justify-center gap-10">
                 <input
                   type="text"
                   className="bg-black/20 p-5 text-white rounded-md w-full h-14 text-xl"

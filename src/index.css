@@ -20,7 +20,37 @@ html {
 .banner {
   background-image: url("./assets/images/banner2.jpg");
   margin-inline: auto;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-attachment: fixed; /* <= This one */
+}
+
+@media screen and (max-width: 2500px) {
+  .banner {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .banner {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .banner {
+    height: 150px;
+  }
 }
 
 .scroll-bar::-webkit-scrollbar {
