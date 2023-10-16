@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <nav className="">
-      <ul className="hidden fixed z-50 bg lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
+      <ul className="hidden top-0 fixed z-50 bg lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
         <li>
           <Link to="/">
             <img className="w-44 h-fit" src={logo} alt="logo" />
@@ -46,7 +46,7 @@ export default function Nav() {
           <Link to="/contact-us">Contact Us</Link>
         </li>
       </ul>
-      <div className="flex h-28 overflow-hidden lg:hidden">
+      <div className="flex fixed top-0 mb-20 bg w-full h-28 overflow-hidden lg:hidden">
         <div className="flex-1">
           <Link to="/">
             <img className="w-28 h-28" src={logo} alt="logo" />

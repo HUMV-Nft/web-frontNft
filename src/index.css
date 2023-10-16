@@ -29,14 +29,14 @@ html {
 
 .banner {
   background-image: url("./assets/images/banner2.jpg");
-  margin-inline: auto;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
-  background-attachment: fixed; /* <= This one */
+  width: 100%;
+  margin-top: 100px;
+  background-size: cover;
 }
 
-@media screen and (max-width: 2500px) {
+@media screen and (max-width: 3500px) {
   .banner {
     height: 600px;
   }

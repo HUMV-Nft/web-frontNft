@@ -26,7 +26,6 @@ export default function Donate() {
           <h2 className="text-green-400 text-center text-2xl md:text-5xl font-bold py-16 uppercase">
             -Support HUMV Community With a Donation-
           </h2>
-          <p></p>
           <div>
             <div className="py-16">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">

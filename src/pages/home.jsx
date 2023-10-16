@@ -128,11 +128,10 @@ export default function Home() {
         </h2>
         <div className="grid w-[70%] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-16">
           {imageList.map((image, index) => (
-            <div className="">
+            <div key={index}>
               <img
                 className="rounded-lg cursor-pointer"
                 onClick={() => openLightbox(image, index)}
-                key={index}
                 src={image}
                 alt="wolf army us"
               />
