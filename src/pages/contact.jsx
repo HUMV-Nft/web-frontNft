@@ -40,7 +40,7 @@ export default function ContactUs() {
   return (
     <>
       <Nav />
-      <section>
+      <section className="pt-20">
         <div className="bg-contact"></div>
         <h2 className="text-5xl text-center font-bold px-10 py-16 text-green-400">
           HUMV Community

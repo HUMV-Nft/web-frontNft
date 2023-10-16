@@ -47,8 +47,8 @@ export default function Home() {
 
   return (
     <>
-      <Banner />
       <Nav />
+      <Banner />
       <section className="px-4">
         <h1 className="text-5xl text-green-400 font-bold text-center py-16">
           -HUMV-
@@ -56,10 +56,7 @@ export default function Home() {
         <p className="text-white pb-24 text-center w-[70%] mx-auto text-lg">
           At HUMV , collectors and creators alike come together to explore the
           world of digital art. We combine cutting-edge technology with
-          sensational artists to pioneer this exciting new art form. Our
-          physical gallery in New York, provides a space for both existing and
-          emerging collectors to purchase digital art with the support of
-          blockchain technology, accepting payment in both Crypto and Fiat
+          sensational artists to pioneer this exciting new art form.
         </p>
         <div className="grid xl:flex justify-center">
           <LeftSideBar />
@@ -126,6 +123,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <h2 className="text-center text-green-400 text-5xl font-bold py-10 uppercase">
+          -sample art works-
+        </h2>
         <div className="grid w-[70%] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-16">
           {imageList.map((image, index) => (
             <div className="">

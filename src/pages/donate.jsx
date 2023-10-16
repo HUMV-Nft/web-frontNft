@@ -19,12 +19,12 @@ export default function Donate() {
   }
   return (
     <>
-      <Banner />
       <Nav />
+      <Banner />
       <section className="py-16">
         <div>
-          <h2 className="text-white text-center text-2xl md:text-5xl font-bold py-16 uppercase">
-            You can donate each Branches you want !
+          <h2 className="text-green-400 text-center text-2xl md:text-5xl font-bold py-16 uppercase">
+            -Support HUMV Community With a Donation-
           </h2>
           <p></p>
           <div>

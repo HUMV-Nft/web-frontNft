@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import menuIcon from "../../assets/images/menu.svg";
+import close from "../../assets/images/icons8-close (1).svg";
 
 import { Link, useLocation } from "react-router-dom";
 
@@ -10,7 +11,7 @@ export default function Nav() {
 
   return (
     <nav className="">
-      <ul className="hidden lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
+      <ul className="hidden fixed z-50 bg lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
         <li>
           <Link to="/">
             <img className="w-44 h-fit" src={logo} alt="logo" />
@@ -45,16 +46,16 @@ export default function Nav() {
           <Link to="/contact-us">Contact Us</Link>
         </li>
       </ul>
-      <div className="flex overflow-hidden lg:hidden">
+      <div className="flex h-28 overflow-hidden lg:hidden">
         <div className="flex-1">
           <Link to="/">
-            <img className="w-44 h-44 " src={logo} alt="logo" />
+            <img className="w-28 h-28" src={logo} alt="logo" />
           </Link>
         </div>
         <img
           className="w-10 mr-10 cursor-pointer"
           onClick={() => setShow(!show)}
-          src={menuIcon}
+          src={show ? close : menuIcon}
           alt="close icon"
         />
         {show ? (
