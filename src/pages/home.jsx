@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <div>
               <h4 className="text-white text-2xl text-center font-medium">
-                Marine
+                Marines
               </h4>
               <img src={marine} alt="solider" className="rounded-full p-4" />
             </div>
@@ -146,7 +146,7 @@ export default function Home() {
           ))}
         </div>
         {lightboxOpen && (
-          <div className="fixed flex items-center py-5 md:py-20 top-0 left-0 w-full h-screen bg-black/50">
+          <div className="fixed flex items-center py-5 md:py-20 inset-0 w-full h-screen bg-black/50 z-50">
             <img
               onClick={closeLightbox}
               className="absolute right-10 top-10 w-12 cursor-pointer"
@@ -160,7 +160,7 @@ export default function Home() {
               alt="arrow"
             />
             <img
-              className="w-[70%] md:w-[50%] xl:w-[40%] mx-auto"
+              className="w-[70%] md:w-[50%] xl:w-[40%] mx-auto z-50 relative"
               src={selectedImage}
               alt="army in light box"
             />
