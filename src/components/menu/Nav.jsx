@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <nav className="">
-      <ul className="hidden top-0 fixed z-50 bg lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
+      <ul className="hidden top-0 fixed z-10 bg lg:flex items-center w-full justify-center lg:gap-10 xl:gap-20 text-white text-2xl font-medium">
         <li>
           <Link to="/">
             <img className="w-44 h-fit" src={logo} alt="logo" />
@@ -59,7 +59,7 @@ export default function Nav() {
           alt="close icon"
         />
         {show ? (
-          <div className="fixed z-50 w-1/2 top-0 bg-black/80 p-5 sm:p-10 h-full text-white sm:text-2xl font-medium">
+          <div className="fixed z-40 w-1/2 top-0 bg-black/80 p-5 sm:p-10 h-full text-white sm:text-2xl font-medium">
             <ul className="grid gap-10">
               <li
                 style={{
