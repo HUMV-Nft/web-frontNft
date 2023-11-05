@@ -69,7 +69,7 @@ export default function ContactUs() {
                 <input
                   type="text"
                   className="bg-black/20 p-5 text-white rounded-md w-full h-14 text-xl"
-                  placeholder="Name"
+                  placeholder="First Name"
                   name="user_name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
