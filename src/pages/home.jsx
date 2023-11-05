@@ -51,12 +51,11 @@ export default function Home() {
       <Banner />
       <section className="px-4">
         <h1 className="text-5xl text-green-400 font-bold text-center py-16">
-          -HUMV-
+          -H.U.M.V.-
         </h1>
         <p className="text-white pb-24 text-center w-[70%] mx-auto text-lg">
-          At HUMV , collectors and creators alike come together to explore the
-          world of digital art. We combine cutting-edge technology with
-          sensational artists to pioneer this exciting new art form.
+          At H.U.M.V., we have built a synergy around taking care of those who
+          served to protect us!
         </p>
         <div className="grid xl:flex justify-center">
           <LeftSideBar />
@@ -66,13 +65,16 @@ export default function Home() {
                 Honoring Sacrifice and Resilience
               </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
-                Supporting military families is an essential and noble endeavor
-                that reflects our deep gratitude for the sacrifices made by
-                those who serve in the armed forces. These families demonstrate
-                unwavering strength and resilience in the face of unique
-                challenges. Our commitment to supporting military families is a
-                testament to our collective responsibility to ensure their
-                well-being.
+                As a nation, our involvement in supporting veterans and their
+                families is an indispensable endeavor that we should all
+                embrace. H.U.M.V.’s mission signifies our profound appreciation
+                for the sacrifices made by those who serve in the armed forces.
+                The determination and fortitude exhibited by veterans and their
+                families exemplify an unwavering dedication to preserving
+                freedom in the face of distinctive challenges. Our commitment to
+                supporting veterans and their families stands as a testament to
+                our internal belief in the collective responsibility we hold to
+                ensure all veterans’ well-being.
               </p>
             </div>
             <div className="text-white text-center py-10">
@@ -80,13 +82,18 @@ export default function Home() {
                 The Weight of Service
               </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
-                Military families often endure long separations, frequent
-                relocations, and the stress of deployments. They embody the true
-                meaning of sacrifice and patriotism. As a community, we come
-                together to provide them with the support, resources, and
-                appreciation they rightfully deserve. By offering assistance
-                with housing, childcare, education, and mental health services,
-                we aim to alleviate the burdens they may face.
+                During active military service, members and their families often
+                endure long separations, frequent relocations, and the stress of
+                deployments. Once they return to civilian life from their period
+                of sacrifice for our nation, many of them face steep uphill
+                challenges while reintegrating into civilian life. As a
+                community, H.U.M.V. has come together to provide some of the
+                essential them with the support and resources needed to navigate
+                everyday life. Our first offering will be financial assistance
+                for food, followed later by transportation support and our
+                long-term goal of housing accommodations. Join us as we strive
+                to alleviate the everyday burdens our veterans and their
+                families are facing!
               </p>
             </div>
           </div>

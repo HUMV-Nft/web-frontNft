@@ -11,18 +11,23 @@ export default function AboutUs() {
           HUMV FAMILY
         </h2>
         <p className="text-xl py-16 text-white w-[70%] mx-auto text-center">
-          The HUMV team is a dedicated group committed to providing unwavering
-          support to military families across the nation. With deep respect and
-          gratitude for the sacrifices made by our brave servicemen and women,
-          HUMV strives to offer assistance, guidance, and a strong sense of
-          community to those who have served their country. HUMVE mission
-          encompasses a wide range of services, including financial counseling,
-          mental health support, housing assistance. Their unwavering dedication
-          to military families ensures that those who have sacrificed so much
-          are never alone in their journey. Through various programs and
-          outreach initiatives, HUMV serves as a beacon of hope, strength, and
-          unity for the military community, fostering a sense of belonging and
-          gratitude for the heroes who protect our nation.
+          At H.U.M.V., our unwavering mission is to honor and uplift the heroes
+          who selflessly served to protect our nation. We are dedicated to
+          empowering underserved military veterans, ensuring that their
+          sacrifices are met with the support and respect they deserve. Our
+          commitment is encapsulated in our tagline: 'Taking care of those who
+          served to protect us!' We strive to make this promise a reality by
+          eventually providing comprehensive assistance and unwavering advocacy
+          for veterans facing hardships. Our first step in building a network of
+          comprehensive services is to ensure that no veteran goes hungry. Over
+          the next several months, we will feed several veterans and their
+          families for up to a year at a time.
+        </p>
+        <p className="text-xl py-16 text-white w-[70%] mx-auto text-center">
+          The H.U.M.V. community is committed to never leaving any veteran
+          behind, just as our veterans never left our nation behind. Together,
+          we stand as a testament to the enduring bonds of service, honor, and
+          compassion! Contact us to find out how you can get involved.
         </p>
       </section>
       <Footer />
