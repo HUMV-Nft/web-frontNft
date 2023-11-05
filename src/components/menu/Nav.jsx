@@ -45,6 +45,11 @@ export default function Nav() {
           className="hover:text-green-400 uppercase cursor-pointer tracking-widest  hover:tracking-tighter transition-all duration-300 border-b-2 border-green-400 px-3 py-2">
           <Link to="/contact-us">Contact Us</Link>
         </li>
+        <li>
+          <Link to="/">
+            <img className="w-44 h-fit" src={logo} alt="logo" />
+          </Link>
+        </li>
       </ul>
       <div className="flex fixed top-0 mb-20 bg w-full h-28 overflow-hidden lg:hidden">
         <div className="flex-1">
