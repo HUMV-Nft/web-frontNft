@@ -181,7 +181,7 @@ export default function Home() {
           ))}
         </div>
         {lightboxOpen && (
-          <div className="fixed flex items-center py-5 md:py-20 inset-0 w-full h-screen bg-black/50 z-50">
+          <div className="fixed flex items-center py-6 md:py-20 inset-0 w-full h-screen bg-black/50 z-50">
             <img
               onClick={closeLightbox}
               className="absolute right-10 top-10 w-12 cursor-pointer"
