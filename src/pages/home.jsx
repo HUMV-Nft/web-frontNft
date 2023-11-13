@@ -13,7 +13,7 @@ import arrow from "../assets/images/icons8-arrow-right-30.png";
 
 import { useState } from "react";
 
-const images = require.context("../assets/images/branch", true);
+const images = require.context("../assets/images/branch", false);
 const imageList = images.keys().map((image) => images(image));
 
 export default function Home() {
@@ -94,6 +94,41 @@ export default function Home() {
                 long-term goal of housing accommodations. Join us as we strive
                 to alleviate the everyday burdens our veterans and their
                 families are facing!
+              </p>
+            </div>
+            <div className="text-white text-center py-10">
+              <h2 className="text-2xl lg:text-4xl font-semibold">
+                Harvey B. Ryan Jr
+              </h2>
+              <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
+                Harvey is Co-owner and a managing partner for H.U.M.V.  His
+                vision of one day being an integral part of assisting
+                underserved U.S. military veterans has now come to fruition. 
+                With the help of his two business partners and other fellow
+                veterans, the vision for Helping Underserved Military Veterans
+                is now in plain view.  Being an Air Force disabled veteran
+                himself, Harvey knows firsthand the struggle that often plagues
+                our brave men and women AFTER their selfless service to our
+                country.  From navigating through the V.A. system, to job
+                searching and attempting to integrate back into civilian life,
+                Harvey brings direct knowledge of how to successfully get
+                through that process, and the oft-times-seeming lack of support
+                while doing so.  Having never lost his zeal for serving our
+                country, Harvey has embarked on a 20-year journey to offer the
+                support to fellow veterans that often eluded him. 
+              </p>
+            </div>
+            <div className="text-white text-center py-10">
+              <h2 className="text-2xl lg:text-4xl font-semibold">
+                Bobby Ray Howard, Sr.
+              </h2>
+              <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
+                Having served honorably in the US Air Force and being deployed
+                to Dharan Saudia Arabia in support of Desert Storm, Bobby has
+                always maintained his passion for supporting his fellow
+                veterans.  Understanding how challenging it can be to wade
+                through the bureaucracy to get the help veterans need, Bobby has
+                committed to a unique opportunity to partner with H.U.M.V.
               </p>
             </div>
           </div>
