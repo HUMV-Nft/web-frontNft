@@ -97,6 +97,9 @@ export default function Home() {
               </p>
             </div>
             <div className="text-white text-center py-10">
+              <h1 className="text-4xl md:text-5xl text-green-400 font-bold text-center py-16">
+                -Testimonials-
+              </h1>
               <h2 className="text-2xl lg:text-4xl font-semibold">
                 Harvey B. Ryan Jr
               </h2>
