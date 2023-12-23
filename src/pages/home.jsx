@@ -123,6 +123,19 @@ export default function Home() {
             </div>
             <div className="text-white text-center py-10">
               <h2 className="text-2xl lg:text-4xl font-semibold">
+                Lee A. Rowland Jr.
+              </h2>
+              <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
+                Having served in the US Army for over 25 years, Lee developed a
+                passion for helping others in need. As a current disabled
+                veteran himself, he understands the day-to-day struggles that
+                veterans go through. As a result, Lee loves to serve other
+                fellow disable veterans and their families.  As a partner with
+                H.U.M.V. he is able to do just that!
+              </p>
+            </div>
+            <div className="text-white text-center py-10">
+              <h2 className="text-2xl lg:text-4xl font-semibold">
                 Bobby Ray Howard, Sr.
               </h2>
               <p className="text-zinc-300 py-16 w-[90%] mx-auto text-lg">
