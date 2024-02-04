@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web-frontNft/static/css/main.baf6c4e3.css",
-    "main.js": "/web-frontNft/static/js/main.9fda7c6f.js",
+    "main.css": "/web-frontNft/static/css/main.61d6c50a.css",
+    "main.js": "/web-frontNft/static/js/main.a5ce0268.js",
     "static/media/army (15).png": "/web-frontNft/static/media/army (15).aac948338a223bf217e9.png",
     "static/media/army (10).png": "/web-frontNft/static/media/army (10).5a08b2b6b3058bf65a89.png",
     "static/media/army (9).png": "/web-frontNft/static/media/army (9).1e534acce8ae589d0ee7.png",
@@ -36,11 +36,11 @@
     "static/media/icons8-close (1).svg": "/web-frontNft/static/media/icons8-close (1).8621574b6c63607106e6322227103887.svg",
     "static/media/menu.svg": "/web-frontNft/static/media/menu.a2fa665bd10c092fea1fc6cdf5ab8839.svg",
     "index.html": "/web-frontNft/index.html",
-    "main.baf6c4e3.css.map": "/web-frontNft/static/css/main.baf6c4e3.css.map",
-    "main.9fda7c6f.js.map": "/web-frontNft/static/js/main.9fda7c6f.js.map"
+    "main.61d6c50a.css.map": "/web-frontNft/static/css/main.61d6c50a.css.map",
+    "main.a5ce0268.js.map": "/web-frontNft/static/js/main.a5ce0268.js.map"
   },
   "entrypoints": [
-    "static/css/main.baf6c4e3.css",
-    "static/js/main.9fda7c6f.js"
+    "static/css/main.61d6c50a.css",
+    "static/js/main.a5ce0268.js"
   ]
 }
